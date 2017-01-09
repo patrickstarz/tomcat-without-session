@@ -8,4 +8,5 @@ Steps:
 3，copy the jar to ${tomcat}/lib.
 4，edit ${tomcat}/conf/context.xml,modify <Manager className="com.nosession.SessionManager" />
 just like the context.xml in our project
+5，access your web service,you will find that tomcat will not response cookie to browser again.
 ```
