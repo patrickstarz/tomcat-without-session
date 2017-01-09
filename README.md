@@ -6,5 +6,6 @@ Steps:
 1，clone or download this project.
 2，expert a jar package with your IDE.
 3，copy the jar to ${tomcat}/lib.
-4，edit ${tomcat}/conf/context.xml,modify <Manager className="com.nosession.SessionManager" /> like the context.xml in our project
+4，edit ${tomcat}/conf/context.xml,modify <Manager className="com.nosession.SessionManager" />
+just like the context.xml in our project
 ```
